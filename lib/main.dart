@@ -2,6 +2,15 @@ import 'package:animations/animations/animation1.dart';
 import 'package:animations/animations/animation2.dart';
 import 'package:animations/animations/animation3.dart';
 import 'package:animations/animations/gestures.dart';
+import 'package:animations/animations/hero_animation/page1.dart';
+import 'package:animations/animations/login/login_sign_animation/loginPage_Animate.dart';
+import 'package:animations/animations/login/login_sign_animation/signup_animation.dart';
+import 'package:animations/animations/mixing_animation.dart';
+import 'package:animations/animations/parenting_animation.dart';
+import 'package:animations/animations/toggle_button.dart';
+import 'package:animations/animations/transforming.dart';
+import 'package:animations/animations/value_change.dart';
+import 'package:animations/futurebuilder/screen1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +37,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: animate3(),
+      home: futures(),
     );
   }
 }
